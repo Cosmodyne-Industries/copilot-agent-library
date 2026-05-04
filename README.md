@@ -7,7 +7,7 @@ This is a live project. More agents to be added and refined as they are tested i
 
 ## Design Principles
 
-These "agents" (note: Copilot Agents are pure prompt-engineering - they don't really have agentic capabilities) are built for use in a public sector procurement context, where mistakes and assumptions can cause real harm, and auditability and transparency is non-negotiable. Every agent in this library is designed with the following principles:
+These "agents" (note: Copilot  declarative agents are pure prompt-engineering - they don't have agentic capabilities) are built for use in a public sector procurement context, where mistakes and assumptions can cause real harm, and auditability and transparency is non-negotiable. Every agent in this library is designed with the following principles:
 
 **Visibility of reasoning** — agents show their working. Classifications, search results, and filtering decisions are explained. The user should always be able to see why a conclusion was reached.
 
