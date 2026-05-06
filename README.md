@@ -1,5 +1,5 @@
 # Copilot Agent Library
-*A collection of Microsoft 365 Copilot declarative agents for UK public-sector procurement workers (NOT FOR COPILOT STUDIO).*
+*A collection of Microsoft 365 Copilot declarative agents for UK public-sector procurement workers (not Copilot studio).*
 
 This is a live project. More agents to be added and refined as they are tested in practice! Each agent can be used standalone or as part of a broader multi-agent workflow described below.
 
@@ -63,25 +63,25 @@ All three agents can also be used independently — you do not need to run the f
 
 ## Configuration Instructions
 
-Note: this repo is designed for **standard Microsoft 365 Copilot declarative agents**. Copilot Studio is a different thing entirely which I sadly do not have access to. Even so, not everyone with a 365 subscription will have access to declarative agents - it depends on your organisation/user licence. If you do not see an option to create new agents, this will be why.
+Note: this repo is designed for **standard Microsoft 365 Copilot declarative agents**. Copilot Studio has more advanced functionality which I sadly do not have access to. Even so, not everyone with a 365 subscription will have access to declarative agents - it depends on your organisation/user licence. If you do not see an option to create new agents, this will be why.
 
-Step 1: open MS Teams and navigate to the Copilot app. Look for "agents" in the sidebar and select **Create agen**
+**Step 1:** open MS Teams and navigate to the Copilot app. Look for "agents" in the sidebar and select **Create agent**
 
-Step 2: Skip the "Describe" tab and go straight to **Configue**
+**Step 2:** Skip the "Describe" tab and go straight to **Configue**
 
-Step 3: Enter a name and brief description for the agent (you may end up with quite a few agents so be sure to give them a clear, descriptive name).
+**Step 3:** Enter a name and brief description for the agent (you may end up with quite a few agents so be sure to give them a clear, descriptive name).
 
-Step 4: Open the relevant .txt file for the agent you want to create (from this repo), and copy-paste the contents into the field called **Instruction**
+**Step 4:** Open the relevant .txt file for the agent you want to create (from this repo), and copy-paste the contents into the field called **Instruction**
 
-Step 5: Check the contents and populate any [square brackets] with your specific information (e.g. your organisation's name). 
+**Step 5:** Check the contents and populate any [square brackets] with your specific information (e.g. your organisation's name). 
 
-Step 6 (agent specific): Under **Add files, meetings, chats, emails and websites** enter any specific URLs required for that agent. Refer to the specific agent configuration instructions further down in this README for the URLs you will need. Copy and paste them exactly as they appear, but check first to make sure they are still up-to-date (note that you must use a high level URL, it cannot be more than two layers deep e.g. https://www.gov.uk/government/ is OK, https://www.gov.uk/government/collections/procurement-act-2023-guidance-documents is not OK).
+**Step 6 (agent specific):** Under **Add files, meetings, chats, emails and websites** enter any specific URLs required for that agent. Refer to the specific agent configuration instructions further down in this README for the URLs you will need. Copy and paste them exactly as they appear, but check first to make sure they are still up-to-date (note that you must use a high level URL, it cannot be more than two layers deep e.g. https://www.gov.uk/government/ is OK, https://www.gov.uk/government/collections/procurement-act-2023-guidance-documents is not OK).
 
-Step 7 (agent specific): Check the toggle for **Only use specified sources**
+**Step 7:** Check the toggle for **Only use specified sources**
 
-Step 8 (optional): add prompt suggestions that will apear when starting a new conversation (some of the agents in this repo have prompt suggestions included in this README
+**Step 8 (optional):** add prompt suggestions that will apear when starting a new conversation (some of the agents in this repo have prompt suggestions included in this README
 
-Step 9: Click the **Create** button (you will then be given the option to share with others in your team)
+**Step 9:** Click the **Create** button (you will then be given the option to share with others in your team)
 
 
 ---
